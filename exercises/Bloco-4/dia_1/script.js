@@ -1,3 +1,69 @@
+/* Exercício 1
+let a = 1;
+let b = 2;
+
+let Adição = (a + b);
+let Subtração = (a - b);
+let Multiplicação = (a * b);
+let Divisão = (a / b);
+let Módulo = (a % b);
+
+console.log(Multiplicação);
+*/
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+/* Exercício 2
+let a = 1;
+let b = 1;
+
+if (a > b) {
+    console.log(a);
+}
+else if (b > a) {
+    console.log(b);
+}
+else {
+    console.log('Os valores são iguais!')
+}
+*/
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+/* Exercício 3
+let a = 1;
+let b = 2;
+let c = 3;
+
+if (a > b && a > c) {
+    console.log(a);
+}
+else if (b > a && b > c) {
+    console.log(b);
+}
+else {
+    console.log(c);
+}
+*/
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+/* Exercício 4
+let a = 1;
+
+if (a > 0) {
+    console.log('positivo');
+}
+else if (a < 0) {
+    console.log('negativo');
+}
+else {
+    console.log('zero!');
+}
+*/
+
+//-------------------------------------------------------------------------------------------------------------------------
+
 /* Exercício 5
 
 let valor1 = 0;
@@ -25,7 +91,7 @@ else {
 
 /* Exercício 6
 
-let peça = 'oi'.toLowerCase();
+let peça = 'rei'.toLowerCase();
 
 switch (peça) {
     case 'rei':
