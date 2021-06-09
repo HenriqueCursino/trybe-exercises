@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(158, 158, 158);
+}
+
+.title {
+    text-align: center;
+}
+
+.box-style {
+    background-color: rgb(214, 217, 220);
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.line-content {
+    margin: 20px;
+}
+
+#title2 {
+    background-color: rgb(214, 217, 220);
+    border: 1px solid rgb(107, 107, 107);
+}
+
+.box-input {
+    width: 100%;
+}
+
+.sub-title {
+    font-size: 20px;
+}
