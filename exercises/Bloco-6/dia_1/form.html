@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class='title box-style'>Formulário</h1>
+    </header>
+    <form method="GET">
+
+        <fieldset class="box-style">
+            <legend id="title2">Dados Pessoais:</legend>
+    
+            <div class="line-content">
+                <label for="name" class="sub-title">Nome:</label>
+                <br>
+                <input type="text" name="name" id="name" class='box-input' maxlength="40" required>
+            </div>
+    
+            <div class="line-content">
+                <label for="email" class="sub-title">Email:</label>
+                <br>
+                <input type="text" name="email" id="email" class='box-input' maxlength="50" required>
+            </div>
+                
+            <div class="line-content">
+                <label form="cpf" class="sub-title">CPF:</label>
+                <br>
+                <input type="text" name="cpf" id="cpf" class="box-input" maxlength="14" required>
+            </div>
+    
+            <div class="line-content">
+                <label for="endereço" class="sub-title">Endereço:</label>
+                <br>
+                <input type="text" name="endereço" id="endereço" class="box-input" maxlength="200" required>
+            </div>
+
+            <div class="line-content">
+                <label for="city" class="sub-title">Cidade:</label>
+                <br>
+                <input type="text" name="city" id="city" class="box-input" maxlength="28" required>
+            </div>
+
+            <div class="line-content">
+                <label for="estate" class="sub-title">Estado:</label>
+                <select id="estate" required>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+
+            <div class="line-content">
+                <input type="radio" name="live" id="house" value="house" required>
+                <label for="house">Casa</label>
+
+                <input type="radio" name="live" id="apartament" value="apartament" required>
+                <label for="apartament">Apartamento</label>
+            </div>
+
+            <div class="line-content">
+                <button>Enviar</button>
+                <button type="reset">Resetar informações</button>
+              </div>
+    
+        </fieldset>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
